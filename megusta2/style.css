@@ -1,0 +1,110 @@
+*{
+    font-family: cursive;
+    margin: 0px;
+    padding: 0px;   
+}
+body{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.nav{
+    display:flex; 
+    background-color: black;
+    padding-bottom: 10px;
+}
+.title-nav{
+    color: white;
+    margin-left: 20px;
+}
+
+.title{
+    text-align: center;
+    margin:10px;
+}
+.seccion{    
+    display: flex;
+    flex-direction: row;
+}
+
+article{    
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+}
+
+.aside{
+    margin-bottom: 250px;
+    display: flex;
+    flex-direction: column; 
+    border: 2px solid black;
+    box-shadow: 1px 1px 1px black;  
+}
+
+main{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.foto{
+    margin: 20px;
+}
+
+.name{
+    font-size: 14px;;  
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 15px;
+  
+    width: 100px;
+   
+}
+.like1{
+    background-color:darkgoldenrod;
+    border: 2px solid grey;
+    box-shadow: 2px 2px 2px black;  
+    height: 30px;
+    width: 90px;
+    margin-top: 20px;
+    margin-right: 20px;
+} 
+
+.parrafo{
+    padding: 0px 10px 0px 10px;
+    text-align:justify;
+    padding-bottom: 20px;
+}
+.foto{
+    margin-bottom: 20px;
+}
+
+.avatar{ 
+    font-size: 12px;
+    text-align: center;
+}
+.jame{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.caja{
+    border: 2px solid black;
+    box-shadow: 1px 1px 1px black;  
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 30px; 
+    padding-left: 10px; 
+}
+
+.megusta{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 250px;
+    
+}

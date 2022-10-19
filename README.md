@@ -1,1 +1,1 @@
-# Contador de likes
+# dado que la plataforma pide dos tareas en uno, se separaron por carpetas
